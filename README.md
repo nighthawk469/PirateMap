@@ -24,7 +24,7 @@ The script will generate several random maps and save them as PNG files.
     pip install -r requirements.txt
     python main.py
 
-Cairo and py2cairo were installed via homebrew
+Cairo and py2cairo were installed via homebrew, for macOS
 
     brew install cairo
     brew install py2cairo
