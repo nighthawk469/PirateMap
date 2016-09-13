@@ -24,6 +24,11 @@ The script will generate several random maps and save them as PNG files.
     pip install -r requirements.txt
     python main.py
 
+Cairo and py2cairo were installed via homebrew
+
+    brew install cairo
+    brew install py2cairo
+
 ### How it Works
 
 It took me a while to decide on an approach for generating the land masses. I didn't want to just generate some simplex noise, threshold it and render it. I wanted to actually compute a polygonal shape that I could do further operations on. So here's how that works...
